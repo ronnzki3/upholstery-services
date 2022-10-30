@@ -1,1 +1,1 @@
-# Landing Page for Furniture and Upholstery Service Business
+# Landing Page for Upholstery Service Business
