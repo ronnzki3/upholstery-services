@@ -1,0 +1,26 @@
+export const carouseldata=[
+    {
+        image:'/Images/corner.jpg',
+        title:'dsadsa',
+    },
+    {
+        image:'/Images/cornerset2.jpg',
+        title:'dsaddas',
+    },
+    {
+        image:'/Images/311.jpg',
+        title:'dsaddas',
+    },
+    {
+        image:'/Images/311-2.jpg',
+        title:'dsaddas',
+    },
+    {
+        image:'/Images/lset.jpg',
+        title:'dsaddas',
+    },
+    {
+        image:'/Images/sofabed.jpg',
+        title:'dsaddas',
+    },
+]
