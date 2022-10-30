@@ -7,11 +7,12 @@ import { Vision } from "./Components/Vision";
 import {galleryimages} from './Components/Gallerydata';
 import { Location } from "./Components/Location";
 import { Navbar } from "./Components/Navbar";
+import { Footer } from "./Components/Footer";
 
 
 function App() {
   return (
-    <div className="bg-gray-300">
+    <div>
       <Navbar />
       <Carousel imagesdata={carouseldata}/>
       <About />
@@ -19,6 +20,7 @@ function App() {
       <Vision />
       <Gallery gallery={galleryimages} />
       <Location />
+      <Footer />
     </div>
   );
 }
