@@ -23,7 +23,7 @@ export const Carousel = ({imagesdata}) => {
     };
 
   return (
-    <div className='max-w-[1200px] w-[100%] mx-auto h-[700px] flex' onMouseEnter={()=>{setAutoPlay(false); clearTimeout(timeOut);}} onMouseLeave={()=>{setAutoPlay(true)}}>
+    <div className='max-w-[1366px] w-[100%] mx-auto h-[700px] flex pt-[115px]' onMouseEnter={()=>{setAutoPlay(false); clearTimeout(timeOut);}} onMouseLeave={()=>{setAutoPlay(true)}}>
         <div className='w-full h-full relative'>
             
             {imagesdata.map((image,index)=>{
