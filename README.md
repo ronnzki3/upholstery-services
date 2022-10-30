@@ -1,1 +1,1 @@
-# Landing Page for Upholstery Service Business
+# Landing Page for Upholstery Services Business
