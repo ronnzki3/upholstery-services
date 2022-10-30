@@ -6,8 +6,7 @@ import {MarkerF} from '@react-google-maps/api'
 export const Location = () => {
 
     const {isLoaded}=useLoadScript({
-        // googleMapsApiKey:process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
-        googleMapsApiKey:"AIzaSyAtlOFi2mffCMgfE55yUiYDYikybHNgeoQ",
+        googleMapsApiKey:process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
     });
 
     if(!isLoaded) return <div>Loading...</div>
@@ -19,10 +18,10 @@ export const Location = () => {
 
 function Map(){
 
-    // const center = useMemo(()=>({
-    //     lat:7.1569927,
-    //     lng:125.6449058,
-    // }),[]);
+    const center = useMemo(()=>({
+        lat:7.1569927,
+        lng:125.6449058,
+    }),[]);
 
     // Latitude: 7.1569927  Longitude: 125.6449058
     return <div className='max-w-[1366px] w-[98%] mx-auto h-[400px] md:h-[500px] lg:h-[700px] mt-[150px]'>
@@ -31,7 +30,7 @@ function Map(){
             <p className='text-left text-lg'>We are located at Purok 25-A Malagamot, Panacan, Davao City</p>
         </div>
         <GoogleMap zoom={15} center={{lat:7.1569927,lng:125.6449058}} mapContainerClassName="map-container">
-            <MarkerF position={{lat:7.1569927,lng:125.6449058}}/>
+            <MarkerF position={center}/>
         </GoogleMap>
 
         <br />
