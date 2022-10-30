@@ -26,7 +26,7 @@ function Map(){
     // Latitude: 7.1569927  Longitude: 125.6449058
     return <div className='max-w-[1366px] w-[98%] mx-auto h-[400px] md:h-[500px] lg:h-[700px] mt-[150px]'>
         <div className='mb-[30px] flex-col'>
-            <h1 className='text-center text-2xl md:text-4xl font-semibold mb-[20px]'>OUR LOCATION</h1>
+            <h1 className='text-center text-2xl md:text-4xl font-semibold mb-[20px] text-[#dcdcdc]'>OUR LOCATION</h1>
             <p className='text-left text-lg'>We are located at Purok 25-A Malagamot, Panacan, Davao City</p>
         </div>
         <GoogleMap zoom={15} center={{lat:7.1569927,lng:125.6449058}} mapContainerClassName="map-container">

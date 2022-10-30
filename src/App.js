@@ -8,6 +8,8 @@ import {galleryimages} from './Components/Gallerydata';
 import { Location } from "./Components/Location";
 import { Navbar } from "./Components/Navbar";
 import { Footer } from "./Components/Footer";
+import { Services } from "./Components/Services";
+import { Contact } from "./Components/Contact";
 
 
 function App() {
@@ -18,7 +20,9 @@ function App() {
       <About />
       <Mission />
       <Vision />
+      <Services />
       <Gallery gallery={galleryimages} />
+      <Contact />
       <Location />
       <Footer />
     </div>
